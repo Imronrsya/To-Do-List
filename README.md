@@ -2,6 +2,10 @@
 
 A modern, responsive todo list application built with React and Tailwind CSS. This application provides an intuitive interface for managing daily tasks with persistent local storage.
 
+## 🌐 Live Demo
+
+🔗 **[Visit ToDoList App](https://imronrsya.github.io/To-Do-List/)**
+
 ## Features
 
 - **Task Management**: Add, complete, and delete tasks with ease
@@ -65,6 +69,33 @@ To preview the production build locally:
 ```bash
 npm run preview
 ```
+
+## 🚀 GitHub Pages Deployment
+
+### Manual Deployment
+```bash
+npm run deploy
+```
+
+### Automatic Deployment
+Every push to `main` branch will automatically trigger GitHub Actions to build and deploy.
+
+### GitHub Pages Settings
+Make sure your GitHub repository settings are configured as follows:
+1. Go to repository **Settings** → **Pages**
+2. **Source**: Deploy from a branch
+3. **Branch**: `gh-pages` / (root)
+4. Click **Save**
+
+### Accessing the App
+Your app will be available at: `https://imronrsya.github.io/To-Do-List/`
+
+### Troubleshooting
+If the site doesn't load:
+1. Check if GitHub Pages is enabled in repository settings
+2. Ensure the branch is set to `gh-pages`
+3. Wait 5-10 minutes after deployment for changes to reflect
+4. Check browser console for any 404 errors on assets
 
 ## Project Structure
 
